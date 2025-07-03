@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+   padding: 0;
+   margin: 0; 
+}
+
+body{
+    /*font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;*/
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.hero {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../img/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 68vh;
+}
+
+.hero H1{
+    color: white;
+    font-size: 100px;
+    text-align: center;
+}
+
+.redes-sociales{
+    padding-top: 35px;
+    padding-left: 35px;
+}
+
+.redes-sociales a{
+    font-weight: 300;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding-left: 25px;
+}
+
+.links a:hover{
+    color: #0CB9E7;
+}
+
+.redes-sociales img{
+    width: 25px;
+    vertical-align: middle;
+}
+
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 20px;
+    padding-right: 20px;
+    height: 20vh;
+    width: 185vh;
+}
+
+.nav-bar a{
+    padding-left: 30px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.nav-bar a img {
+    vertical-align: middle;
+    size: 26px;
+}
+
+.nav-bar a:hover{
+    color: #0CB9E7;
+}
+
+.informacion{
+    margin-top: 35px;
+}
+
+.contenedor {
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 35px;
+    padding-bottom: 35px;
+}
+  
+.texto {
+    font-size: larger;
+    flex: 1;
+    margin-left: 35px;
+}
+
+.texto hr{
+    text-decoration: none;
+    color: black;
+    border: solid #0CB9E7;
+    margin-bottom: 20px;
+}
+
+.texto p{
+    margin-bottom: 30px;
+    color: #959595;
+}
+
+.texto h2{
+    margin-top: 30px;
+}
+  
+.imagen {
+    margin-top: 30px;
+    padding-left: 30px;
+    flex: 1;
+}
+  
+.imagen img {
+    max-width: 800px;
+}
+
+.grupos{
+    background-color: #F6F8FA;
+    height: 43vh;  
+    
+}
+
+.contenedor2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 35px;
+    padding-bottom: 35px;
+}
+
+.texto1{
+    margin-top: 35px;
+    padding: 35px;
+}
+
+.texto2{
+    margin-top: 35px;
+    padding: 35px;
+}
+
+.grupos p{
+    text-align: center;
+    margin-top: 20px;
+    font-size: large;
+    margin-right: 35px;
+}
+
+.grupos h2{
+    margin-top: 30px;
+    font-size: xx-large;
+    text-align: center;
+}
+
