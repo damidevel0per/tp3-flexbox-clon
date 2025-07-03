@@ -228,3 +228,33 @@ body{
 .contenedor3{
     text-align: center;
 }
+
+footer{
+    background-color: #26272E;
+    color: white;
+    height: 10vh;
+    text-align: start;
+}
+
+footer{
+    color: #7D8597;
+}
+
+.enlaces{
+    font-size: large;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.enlaces a{
+    text-decoration: none;
+    color: #7D8597;
+    padding-left: 20px;
+    text-align: center;
+}
+
+.enlaces a:hover{
+    color: #0CB9E7;
+}
